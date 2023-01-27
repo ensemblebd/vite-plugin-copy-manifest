@@ -1,0 +1,29 @@
+{
+  "name": "vite-plugin-copy-manifest",
+  "version": "0.0.1",
+  "description": "a vite plugin to copy generated manifest json file to destination location.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larryzhao/vite-plugin-copy-manifest.git"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "manifest",
+    "hugo"
+  ],
+  "author": "Larry Zhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larryzhao/vite-plugin-copy-manifest/issues"
+  },
+  "homepage": "https://github.com/larryzhao/vite-plugin-copy-manifest#readme",
+  "devDependencies": {
+    "vite": "^4.0.4"
+  }
+}
