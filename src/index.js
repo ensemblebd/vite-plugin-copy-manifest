@@ -16,9 +16,7 @@ export default function copyManifest(options = {}) {
           const src = path.resolve(outDir + manifestFilename);
           const dest = path.resolve(options.destDir + manifestFilename);
 
-          fs.copyFile(src, dest, (err) => {
-            if (err) throw err;
-          });
+          fs.copyFileSync(src, dest);
         }
       });
     },
