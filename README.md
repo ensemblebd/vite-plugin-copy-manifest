@@ -6,7 +6,7 @@ Vite will generate a manifest json file after `vite build`, will always generate
 
 # Install
 ```bash
-npm i vite-plugin-pwa -D
+npm i vite-plugin-copy-manifest -D
 ```
 
 # Usage
