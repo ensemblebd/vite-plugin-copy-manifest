@@ -18,7 +18,7 @@
     "hugo"
   ],
   "author": "Larry Zhao",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/larryzhao/vite-plugin-copy-manifest/issues"
   },
