@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-copy-manifest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a vite plugin to copy generated manifest json file to destination location.",
   "main": "src/index.js",
   "type": "module",
