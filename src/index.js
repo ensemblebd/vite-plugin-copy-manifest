@@ -15,7 +15,7 @@ export default function copyManifest(options = {}) {
         if (plugin.name != 'vite-plugin-copy-manifest') {
           return;
         }
-        plugin.writeBundle = () => {
+        plugin.closeBundle = () => {
           const src = path.resolve(outDir, manifestPath, manifestFilename);
           const dest = path.resolve(options.destDir, manifestFilename);
 
